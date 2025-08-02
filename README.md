@@ -72,6 +72,8 @@ Reporting</h3>
 <h2>📦 Installation</h2>
 
 <pre><code># Build from source
+go mod init
+go mod tidy
 go build -o http_scanner main.go
 
 # Or install directly
