@@ -1,99 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>HTTP Login Scanner Pro</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #24292e;
-            max-width: 1012px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            margin-top: 24px;
-            margin-bottom: 16px;
-            font-weight: 600;
-        }
-        h1 {
-            font-size: 2em;
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
-        }
-        h2 {
-            font-size: 1.5em;
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
-        }
-        h3 {
-            font-size: 1.25em;
-        }
-        pre {
-            background-color: #f6f8fa;
-            border-radius: 6px;
-            padding: 16px;
-            overflow: auto;
-        }
-        code {
-            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-            background-color: rgba(27, 31, 35, 0.05);
-            border-radius: 3px;
-            padding: 0.2em 0.4em;
-            font-size: 85%;
-        }
-        table {
-            border-spacing: 0;
-            border-collapse: collapse;
-            display: block;
-            width: 100%;
-            overflow: auto;
-            margin-bottom: 16px;
-        }
-        th {
-            font-weight: 600;
-            padding: 6px 13px;
-            border: 1px solid #dfe2e5;
-            background-color: #f6f8fa;
-        }
-        td {
-            padding: 6px 13px;
-            border: 1px solid #dfe2e5;
-        }
-        img {
-            max-width: 100%;
-            box-sizing: content-box;
-            background-color: #fff;
-        }
-        .center {
-            text-align: center;
-        }
-        .notice {
-            background-color: #f8f8f8;
-            padding: 10px;
-            border-left: 4px solid #ff9800;
-            margin: 20px 0;
-        }
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 15px;
-            margin: 20px 0;
-        }
-        .feature-card {
-            background: #f5f5f5;
-            padding: 15px;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-
-<h1 class="center">🔐 HTTP Login Scanner Pro</h1>
+<h1 class="center">🔐 Cyberpanel Login Scanner </h1>
 
 <p class="center">
-    <strong>Professional credential testing tool</strong> combining brute-force protection bypass and high-performance scanning
+    <strong>Cyberpanel credential testing tool</strong> combining brute-force protection bypass and high-performance scanning
 </p>
 
 <div class="center">
@@ -103,7 +13,32 @@
     <img src="https://img.shields.io/badge/Proxy-SOCKS5-red" alt="SOCKS5 Support">
 </div>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+![Diagram](https://i.imgur.com/AhhI4eN.png)
+
+</body>
+</html>
+
+</div>
+
+</body>
+</html>
 <h2>✨ Key Features</h2>
+
+<ul>
+  <li>⚡ <strong>High-Speed Scanning</strong> with goroutine worker pools</li>
+  <li>🔓 <strong>CSRF Token Handling</strong> automatic detection and usage</li>
+  <li>🛡️ <strong>SSL Bypass</strong> with configurable certificate verification</li>
+  <li>🌐 <strong>Proxy Support</strong> SOCKS5 (Tor compatible)</li>
+  <li>📊 <strong>Real-Time Stats</strong> success/failure tracking</li>
+  <li>⏱️ <strong>Adaptive Timeouts</strong> for various network conditions</li>
+  <li>📁 <strong>Results Export</strong> multiple output formats</li>
+</ul>
+
 
 <div class="features-grid">
     <div class="feature-card">
@@ -115,25 +50,25 @@
         </ul>
     </div>
     
+<div class="features-container">
     <div class="feature-card">
         <h3>🔒 Security</h3>
         <ul>
-            <li>CSRF token handling</li>
-            <li>SSL verification bypass</li>
-            <li>SOCKS5 proxy support</li>
+            <li>Automatic CSRF token handling</li>
+            <li>SSL verification bypass option</li>
+            <li>SOCKS5 proxy support (Tor compatible)</li>
         </ul>
     </div>
 
-    <div class="feature-card">
-        <h3>📊 Reporting</h3>
+Reporting</h3>
         <ul>
-            <li>Real-time statistics</li>
-            <li>Success/failure tracking</li>
-            <li>File export capabilities</li>
+            <li>Real-time scanning statistics dashboard</li>
+            <li>Detailed success/failure tracking</li>
+            <li>Multiple export formats (TXT, JSON, CSV)</li>
+            <li>Color-coded results for quick analysis</li>
         </ul>
     </div>
-</div>
-
+  
 <h2>📦 Installation</h2>
 
 <pre><code># Build from source
